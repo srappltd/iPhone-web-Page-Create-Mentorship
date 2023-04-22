@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    text-transform: capitalize;
+}
+#nav a{
+    /* justify-content: ; */
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+#nav a:hover{
+    /* justify-content: ; */
+    color: rgb(215, 215, 215);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+}
+#nav i{
+    font-size: 20px;
+    color:rgb(215, 215, 215);
+}
+#hero{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(8, 8, 8);
+    overflow: hidden;
+    color: antiquewhite;
+    /* background-image: url("iphone-x-pictures-45230.png"); */
+}
+#hero img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+#hero .center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#hero .center h1{
+    font-size: 50px;
+    font-weight: 700;
+}#hero .center h1:nth-child(2){
+    font-size: 35px;
+    font-weight: 400;
+}
+#hero .center div{
+    align-items: center;
+    justify-content: end;
+}
+#hero .center a{
+    color: rgb(0, 111, 208);
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 10px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero .center i{
+    /* font-size: 2rem; */
+    color: rgb(0, 111, 208);
+    text-align: center;
+
+}
+#hero1{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: relative;
+    color: rgb(0, 0, 0);
+    /* background-image: url("iphone-x-pictures-45230.png"); */
+}
+#hero1 img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+#hero1 .center{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#hero1 .center h1{
+    font-size: 50px;
+    font-weight: 700;
+}#hero1 .center h1:nth-child(2){
+    font-size: 35px;
+    font-weight: 400;
+}
+#hero1 .center div{
+    align-items: center;
+    justify-content: end;
+}
+#hero1 .center a{
+    color: rgb(0, 111, 208);
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 10px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero1 .center i{
+    /* font-size: 2rem; */
+    color: rgb(0, 111, 208);
+    text-align: center;
+
+}
+#hero2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+    color: rgb(255, 255, 255);
+    /* background-image: url("iphone-x-pictures-45230.png"); */
+}
+#hero2 img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 22%;
+}
+#hero2 .center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#hero2 .center h1{
+    font-size: 50px;
+    font-weight: 700;
+}#hero2 .center h1:nth-child(2){
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: red;
+}#hero2 .center h1:nth-child(3){
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+#hero2 .center div{
+    align-items: center;
+    justify-content: end;
+}
+#hero2 .center a{
+    color: rgb(0, 111, 208);
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 10px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero2 .center i{
+    /* font-size: 2rem; */
+    color: rgb(0, 111, 208);
+    text-align: center;
+
+}
+#hero3{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+#hero3 .hero31{
+    width: 100%;
+    height: 75vh;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
+#hero3 .hero31 .center{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+#hero3 .hero31 .center .card1{
+    border: 2px solid rgb(216, 216, 216);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+#hero3 .hero31 .center .card1 .content{
+    width:50%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,0%);
+}
+#hero3 .hero31 .center .card1 .content h1{
+    font-size:40px;
+    color: rgb(43, 43, 43);
+}
+#hero3 .hero31 .center .card1 .content p{
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    margin-top: 10px;
+}
+#hero3 .hero31 .center .card1 .content a{
+    color: rgb(0, 102, 191);
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero3 .hero31 .center .card1 .content i{
+    color:rgb(0, 102, 191);
+}
+#hero3 .hero31 .center .card1 img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+#hero3 .hero31 .center .card2{
+    border: 2px solid rgb(216, 216, 216);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+}
+#hero3 .hero31 .center .card2 .content{
+    width:50%;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,0%);
+}
+#hero3 .hero31 .center .card2 .content h1{
+    font-size:40px;
+    color: rgb(234, 234, 234);
+}
+#hero3 .hero31 .center .card2 .content h1 i{
+    color:rgb(232, 232, 232);
+}
+#hero3 .hero31 .center .card2 .content p{
+    font-size: 20px;
+    color: rgb(234, 234, 234);
+    margin-top: 5px;
+}
+#hero3 .hero31 .center .card2 .content a{
+    color: rgb(0, 114, 214);
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero3 .hero31 .center .card2 .content i{
+    color:rgb(0, 102, 191);
+}
+#hero3 .hero31 .center .card2 img{
+    width: 80%;
+    margin-top: 10%;
+}#hero3 .hero31 .center .card1 .imgCard3{
+    width: 70%;
+    margin-top: 10%;
+}
+
+
+/* #hero3 img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+#hero3 .center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#hero3 .center h1{
+    font-size: 50px;
+    font-weight: 700;
+}#hero3 .center h1:nth-child(2){
+    font-size: 35px;
+    font-weight: 400;
+}
+#hero3 .center div{
+    align-items: center;
+    justify-content: end;
+}
+#hero3 .center a{
+    color: rgb(0, 111, 208);
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 10px;
+    align-items:center;
+    text-align: center;
+    margin-left: 10px;
+}
+#hero3 .center i{
+    color: rgb(0, 111, 208);
+    text-align: center;
+
+} */
+#hero4{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    margin-top: 2px;
+    align-items: center;
+}
+#hero4 .hLeft{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    align-items: center;
+    position: relative;
+}
+#hero4 .hLeft .content{
+    width: 40%;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+#hero4 .hLeft .content h1{
+    font-size: 32px;
+    font-weight: 500;
+}#hero4 .hLeft .content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+#hero4 .hLeft .content .h1Card{
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 0 0 7px rgb(116, 116, 116);
+}
+#hero4 .hLeft .content a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(0, 60, 255);
+}
+
+/* //footer  */
+#footer{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(243, 243, 243);
+    margin-top: 5px;
+    /* border-top: 1px solid rgb(178, 178, 178); */
+}
+#footer .topFooter{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    /* background-color: rgb(168, 168, 168); */
+}
+#footer .topFooter .content{
+   width: 100%;
+   height: 38%;
+   color: rgb(96, 96, 96);
+   padding: 20px;
+   border-bottom: 1px solid rgb(215, 215, 215);
+}
+#footer .topFooter .content p{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight:500;
+ }
+ #footer .topFooter .content p a{
+    color: rgb(41, 41, 41);
+}
+
+#footer .topFooter .content2{
+    width: 100%;
+    height: 53%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(67, 67, 67);
+    gap: 1px;
+    margin-top: 40px;
+    border-bottom:1px solid rgb(215, 215, 215);
+
+}
+#footer .topFooter .content2 .cLeft{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(168, 168, 168); */
+    padding: 20px;
+}
+#footer .topFooter .content2 .cLeft p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#footer .topFooter .content2 .cLeft p a{
+    color: rgb(86, 86, 86);
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}#footer .topFooter .content2 .cLeft p a:hover{
+    color: rgb(86, 86, 86);
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+#footer .topFooter .content3{
+    width: 100%;
+    height:10vh;
+    margin-top: -25px;
+    /* background-color: aquamarine; */
+    
+}
+#footer .topFooter .content3 p{
+    font-size: 14px;
+}
+#footer .topFooter .content3 div{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(201, 201, 201); */
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+#footer .topFooter .content3 div p{
+    font-size: 14px;
+}
+#footer .topFooter .content3 div p a{
+    color: black;
+    text-decoration: none;
+}#footer .topFooter .content3 div p a:hover{
+    color: black;
+    text-decoration: underline;
+}
